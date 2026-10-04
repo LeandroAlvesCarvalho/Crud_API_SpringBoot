@@ -8,6 +8,7 @@ package com.minhaapi.crud_api.model;
  *
  * @author piter
  */
+
 @Entity
 public class User {
    @Id

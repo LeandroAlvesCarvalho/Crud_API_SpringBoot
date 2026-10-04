@@ -8,6 +8,7 @@ package com.minhaapi.crud_api.repository;
  *
  * @author piter
  */
+
 public interface UserRepository extends JpaRepository<User, Long> {
     
 }

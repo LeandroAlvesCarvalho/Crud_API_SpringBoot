@@ -8,6 +8,8 @@ package com.minhaapi.crud_api.service;
  *
  * @author piter
  */
+
+@Service
 public class UserService {
     @Autowired
     private UserRepository repository;
