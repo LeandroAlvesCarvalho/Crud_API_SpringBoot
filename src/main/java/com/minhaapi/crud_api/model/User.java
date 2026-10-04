@@ -15,7 +15,7 @@ public class User {
    private Long id;
    private String email;
    private String userPassword;
-   private String nome;
+   private String name;
    private int age;
    
    // getters e setters
@@ -44,12 +44,12 @@ public class User {
         this.userPassword = userPassword;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {
